@@ -8,7 +8,7 @@ function App() {
       {/* Header Section with Profile Picture */}
       <header className="p-10 text-center flex flex-col items-center justify-center">
         <motion.img
-          src="/pic.jpg"
+          src="/PIC.jpg"
           alt="Profile"
           className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
           initial={{ scale: 0 }}
