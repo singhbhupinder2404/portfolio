@@ -1,0 +1,114 @@
+/* Base Reset and Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #232526, #414345);
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Section Layout */
+section {
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+p, li {
+  color: #e0e0e0;
+  line-height: 1.7;
+}
+
+/* Buttons */
+a.download,
+button {
+  background: #ffffff;
+  color: #333333;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+a.download:hover,
+button:hover {
+  background: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+/* Profile Image */
+header img {
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+  object-fit: cover;
+}
+
+/* Layout Utilities */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 { margin-top: 0.5rem; }
+.mt-5 { margin-top: 1.25rem; }
+.mb-4 { margin-bottom: 1rem; }
+
+.p-10 { padding: 2.5rem; }
+.pb-20 { padding-bottom: 5rem; }
+
+.rounded-xl { border-radius: 1rem; }
+.shadow-lg { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); }
+
+.max-w-4xl {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .md\\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Link Colors */
+a {
+  color: #6dd5ed;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f7797d;
+  text-decoration: underline;
+}

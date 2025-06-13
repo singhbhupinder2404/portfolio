@@ -1,0 +1,150 @@
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #1e1e2f, #2a2a40);
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+/* === Universal Utilities === */
+.max-w-4xl {
+  max-width: 64rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.mt-2 { margin-top: 0.5rem; }
+.mt-5 { margin-top: 1.25rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* === Glassmorphism Container === */
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  padding: 2rem;
+}
+
+/* === Header Profile Image === */
+header img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 9999px;
+  border: 4px solid #fff;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+/* === Links & Buttons === */
+a {
+  color: #6cb4ff;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #90cdf4;
+  text-decoration: underline;
+}
+
+a.download,
+button {
+  background: #ffffff;
+  color: #1a202c;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+a.download:hover,
+button:hover {
+  background: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+/* === Lists and Typography === */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+
+/* === Grid === */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .md\\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
