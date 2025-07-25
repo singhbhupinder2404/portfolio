@@ -100,14 +100,15 @@ function App() {
           <h2 className="text-3xl font-semibold mb-4">Key Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300">
             <ul className="list-disc pl-5 space-y-1">
-              <li>Strategic Human Resource Managemen</li>
+              <li>Strategic Human Resource Management</li>
               <li>Administration and Office Management</li>
               <li>Payroll & Compensation Structuring</li>
               <li>Secretarial Functions/Management, Team management</li>
               <li>Government Recruitment, Talent Acquisition & Development</li>
-              <li>Policy Formulation & Labor Law Complianc</li>
+              <li>Policy Formulation & Labor Law Compliance</li>
               <li>Hostel management, Hotel management, Security management</li>
-              <li>Logistics system and documentation, Cost control and Improvement, Warehouse and storage optimisation </li>
+              <li>Logistics system and documentation, Cost control and Improvement</li>
+              <li>Warehouse and storage optimisation, Vendor relationship management </li>
               <li>e-Office, IMMOLS, IAF POR Systems</li>
               <li>Python, MySQL,Javascript,MongoDB</li>
               <li>Advanced Excel, PowerPoint, Power BI</li>
