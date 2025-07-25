@@ -103,8 +103,6 @@ function App() {
               <li>Payroll & Compensation Structuring</li>
               <li>Talent Acquisition & Development</li>
               <li>Policy Formulation & Labor Law Compliance</li>
-            </ul>
-            <ul className="list-disc pl-5 space-y-1">
               <li>e-Office, IMMOLS, IAF POR Systems</li>
               <li>Python, MySQL,Javascript,MongoDB</li>
               <li>Advanced Excel, PowerPoint, Power BI</li>
