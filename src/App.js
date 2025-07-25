@@ -81,6 +81,7 @@ function App() {
             <li>Master of Arts in Sociology – IGNOU, 2016</li>
             <li>Bachelor of Arts – Bangalore University, 2010</li>
             <li>Diploma in Office Administration & Hotel Management – Vocational Training Institute</li>
+            <li>Certified in Security of Strategic Installations - IAF/IGNOU </li>
             <li>Certified in Cyber Security Literacy – Government Cyber Awareness Program</li>
             <li>Advanced Officer Training – Ethereum & Blockchain Technologies</li>
             <li>Certified Registration Authority Professional – Digital Signature Governance</li>
@@ -99,10 +100,14 @@ function App() {
           <h2 className="text-3xl font-semibold mb-4">Key Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300">
             <ul className="list-disc pl-5 space-y-1">
-              <li>Strategic Human Resource Management</li>
+              <li>Strategic Human Resource Managemen</li>
+              <li>Administration and Office Management</li>
               <li>Payroll & Compensation Structuring</li>
-              <li>Talent Acquisition & Development</li>
-              <li>Policy Formulation & Labor Law Compliance</li>
+              <li>Secretarial Functions/Management, Team management</li>
+              <li>Government Recruitment, Talent Acquisition & Development</li>
+              <li>Policy Formulation & Labor Law Complianc</li>
+              <li>Hostel management, Hotel management, Security management</li>
+              <li>Logistics system and documentation, Cost control and Improvement, Warehouse and storage optimisation </li>
               <li>e-Office, IMMOLS, IAF POR Systems</li>
               <li>Python, MySQL,Javascript,MongoDB</li>
               <li>Advanced Excel, PowerPoint, Power BI</li>
@@ -122,7 +127,7 @@ function App() {
           transition={{ duration: 3 }}
         >
           <h2 className="text-3xl font-semibold mb-4">Contact Me</h2>
-          <p>Email: <a href="mailto:singhbhupinderchahal@gmail.com" className="text-blue-400">singhbhupinderchahal@gmail.com</a></p>
+          <p>Email: <a href="mailto:singhbhupinderchahal@gmail.com" className="text-green-400">singhbhupinderchahal@gmail.com</a></p>
           <p>Phone: <a href="tel:+919419219866" className="text-blue-400">+91-9419219866</a></p>
           <p>Location: Bangalore, India</p>
         </motion.div>
