@@ -78,7 +78,7 @@ function App() {
         >
           <h2 className="text-3xl font-bold mb-6 text-white">Education & Certifications</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-200 text-lg">
-            <li>Master of Arts in Public Administration – IGNOU, 2016</li>
+            <li>Master of Arts in Sociology – IGNOU, 2016</li>
             <li>Bachelor of Arts – Bangalore University, 2010</li>
             <li>Diploma in Office Administration & Hotel Management – Vocational Training Institute</li>
             <li>Certified in Cyber Security Literacy – Government Cyber Awareness Program</li>
@@ -106,10 +106,11 @@ function App() {
             </ul>
             <ul className="list-disc pl-5 space-y-1">
               <li>e-Office, IMMOLS, IAF POR Systems</li>
+              <li>Python, MySQL,Javascript,MongoDB</li>
               <li>Advanced Excel, PowerPoint, Power BI</li>
               <li>Digital Signature Infrastructure Management</li>
               <li>Computer Hardware & Network Maintenance</li>
-            </ul>
+              </ul>
           </div>
         </motion.div>
       </section>
